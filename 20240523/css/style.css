@@ -1,0 +1,9 @@
+@charset "utf-8";
+ul{
+    max-width: 500px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: lightpink;
+}
