@@ -25,3 +25,7 @@ li {
     color: inherit;
     list-style: none;
 }
+img{width: 100%;
+    vertical-align: bottom;
+    border: none;
+}

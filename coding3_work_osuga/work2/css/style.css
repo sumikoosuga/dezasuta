@@ -2,6 +2,7 @@
 body{
     max-width: 960px;
     justify-content: center;
+    margin: 0 auto;
 }
 h1{
     font-size: 28px;
@@ -14,16 +15,23 @@ ul{
     justify-content: space-between;
     max-width: 960px;
 }
+
+li{
+    width: 30%;
+    background-color: white;
+}
 img{
-    padding: 10px;
     display: flex;
+    margin-bottom: 10px;
     justify-content: space-between;
 }
 h2,p{
     background-color: white;
+    padding: 10px;
 }
 h2{
     border-left: 5px solid #007;
+    margin-left: 10px;
     font-size: 20px;
     color: #007c6a
     
@@ -36,6 +44,9 @@ P{
     ul{
         flex-direction: column;
         max-width: 100%;
+    }
+    li{
+        width: 100%;
     }
 
 }
